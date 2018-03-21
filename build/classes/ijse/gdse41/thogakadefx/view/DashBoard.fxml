@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.gdse41.thogakadefx.view.DashBoardController">
+    <stylesheets>
+        <URL value="@dashboard.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="btnmanagecustomer" layoutX="114.0" layoutY="82.0" mnemonicParsing="false" onAction="#clickManageCustomer" text="Manage Customer" />
+      <Button fx:id="btnmanageitem" layoutX="114.0" layoutY="141.0" mnemonicParsing="false" onAction="#clickManageItem" prefHeight="33.0" prefWidth="168.0" text="Manage Item" />
+      <Button fx:id="btnplaceorder" layoutX="114.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickPlaceOrder" prefHeight="33.0" prefWidth="168.0" text="Place Order" />
+   </children>
+</AnchorPane>
